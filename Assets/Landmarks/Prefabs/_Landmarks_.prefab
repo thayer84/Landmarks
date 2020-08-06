@@ -667,6 +667,32 @@ Halo:
     serializedVersion: 2
     rgba: 4278255615
   m_Size: 5
+--- !u!114 &6572077855308536760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5894788897412649137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc52bd233bf6417e813a8500da44ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultText: Continue
+--- !u!114 &4290233465060953294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6036326383296407680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fc52bd233bf6417e813a8500da44ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultText: Skip
 --- !u!1 &789112907962390421
 GameObject:
   m_ObjectHideFlags: 0
@@ -7370,7 +7396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7154346062648222598}
-  - component: {fileID: 4049530821156502844}
+  - component: {fileID: 7356147721597154177}
   m_Layer: 0
   m_Name: AssignTargetColors
   m_TagString: Untagged
@@ -7392,7 +7418,7 @@ Transform:
   m_Father: {fileID: 5308465572113532639}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4049530821156502844
+--- !u!114 &7356147721597154177
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7401,7 +7427,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6553984641553543773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4be8eebc3f7bc44889972987ca198431, type: 3}
+  m_Script: {fileID: 11500000, guid: 56896d37c4db64a96854eacc7ed011f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skip: 0
@@ -7422,8 +7448,7 @@ MonoBehaviour:
   triggerOnStart: 0
   triggerOnEnd: 0
   colorSpace: 0
-  alphabet: {fileID: 6487356903442857568, guid: d3a14a0bc1b5d44878f066d1f9a4ed39,
-    type: 3}
+  alphabet: {fileID: 0}
   Lmin: 25
   Lmax: 75
   uniqueLuminances: 3
@@ -10768,8 +10793,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SteamVR_HUD
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 135234137398869469, guid: 6a71ba01c9e92408d959a1fbbaf55999, type: 3}
+    - {fileID: 7920196412644436107, guid: 6a71ba01c9e92408d959a1fbbaf55999, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6a71ba01c9e92408d959a1fbbaf55999, type: 3}
+--- !u!1 &5894788897412649137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6580779607783913402, guid: 6a71ba01c9e92408d959a1fbbaf55999,
+    type: 3}
+  m_PrefabInstance: {fileID: 765013161893603083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6036326383296407680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6438047089679781771, guid: 6a71ba01c9e92408d959a1fbbaf55999,
+    type: 3}
+  m_PrefabInstance: {fileID: 765013161893603083}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7718157850947585988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7026100056922333391, guid: 6a71ba01c9e92408d959a1fbbaf55999,
